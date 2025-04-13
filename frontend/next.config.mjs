@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://exchange-platform-tau.vercel.app/api/:path*', // Proxy to your API server
+        destination: 'https://exchange-backend-proxy.vercel.app/api/:path*', // Proxy to your API server
       },
     ];
   },
